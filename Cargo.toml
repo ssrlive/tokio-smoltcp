@@ -38,6 +38,7 @@ pcap = "1.1"
 structopt = "0.3"
 dns-parser = "0.8"
 rand = "0.8"
+lru_time_cache = "0.11"
 
 [features]
 default = ["proto-ipv4", "proto-ipv6", "raw_socket"]
